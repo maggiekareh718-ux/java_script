@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       //Clean up the following variable to give the clean version in lower case. Using inbuilt methods in the string class
+//f_name = “  JOHn  .“ to “john”
+f_name = "  JOHn  ."
+let trimmed=f_name.trim()
+
+console.log(f_name)
+console.log(f_name.toLowerCase())
+//Slice the below string to get you the resulting sentence:
+//sentence_one = “The Dog Breed is German Shepherd” only display “Breed is German”
+sentence_one = "The Dog Breed is German Shepherd"
+console.log(sentence_one.slice(8,23))
+//sentence_two = “Defeats for the Clinton forces, this was her moment of triumph” only display “Clinton forces”
+sentence_two = "Defeats for the Clinton forces, this was her moment of triumph"
+console.log(sentence_two.slice(16,30))
+//Split the below sentence using a semicolon i.e ; And display length of the result. 
+//“The lazy dog; ran so fast; it hit the wall.” //
+value="The lazy dog; ran so fast; it hit the wall."
+console.log(value.split(';').length())
+
+
+    </script>
+</body>
+</html>

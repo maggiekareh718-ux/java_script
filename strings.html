@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div>
+    <p>String Methods</p>
+   </div> 
+   <script>
+    //length
+    let f_name='Joy'
+    console.log(f_name.length)//4
+    //charAt()
+    console.log(f_name.charAt(2))//y
+//slice
+    let sentence ="My dog is sick"
+    console.log(sentence.slice(3,6))//dog
+    console.log(sentence.slice())//returnsthe original string
+
+    //lower and uppercase
+    console.log(sentence.toLowerCase())//lowercase
+    console.log(sentence.toUpperCase())//uppercase
+
+    let y="    x   fghjghjdjyf    "
+    let trimmed=y.trim()
+    console.log(trimmed)
+    console.log(y.length)//23
+    console.log(trimmed.length)//15
+
+    let first_name='Maggie '
+    let last_name='Kareh'
+    let full_name=first_name.concat(last_name)
+    console.log(full_name)//Maggie Kareh
+
+    full_name=first_name+' '+last_name
+
+    console.log(last_name.startsWith('Ka'))//true
+    console.log(first_name.endsWith('e'))//false
+
+    
+
+   </script>
+</body>
+</html>

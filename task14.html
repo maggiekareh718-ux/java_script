@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p>task 14</p>
+    </div>
+    <script>
+        // TASK 14: Using Python or PHP or Java or Ruby or JavaScript
+// Write a program that takes input of 2 values and adds them. The program should only accept numbers and floats only or otherwise
+// display an error “invalid character entered” and take the user to re-enter the inputs .
+// Once you learn functions,revisit this and write this code inside a function.
+i = 0
+
+for (let i = 0; i < 3; i++){
+    let number1 = Number(prompt("Enter a number: "))
+    let number2 = Number(prompt("Enter another number: "))
+
+    if (!isNaN(number1) && !isNaN(number2)){
+        let sum = number1 + number2
+        console.log(sum)
+        break
+    }
+    else{
+        console.log("invalid character entered")
+    }       
+}
+    </script>
+</body>
+</html>
